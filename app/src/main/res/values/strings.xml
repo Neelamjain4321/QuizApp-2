@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Quiz App</string>
+    <string name="question1">1.what is the first planet in the solar system ?</string>
+    <string name="question2">2.what is the second planet in the solar system ?</string>
+    <string name="question3">3.what is the third planet in the solar system ?</string>
+    <string name="question4">4.what is the forth planet in the solar system ?</string>
+    <string name="question5">5.what is the fifth planet in the solar system ?</string>
+    <string name="question6">6.what is the sixth planet in the solar system ?</string>
+    <string name="question7">7.what is the seventh planet in the solar system ?</string>
+    <string name="question8">8.what is the eighth planet in the solar system ?</string>
+    <string name="question9">9.what is the ninth planet in the solar system ?</string>
+    <string name="note">NOTE: There is negative one mark for the wrong answer</string>
+</resources>

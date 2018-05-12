@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/note"
+            android:textColor="@android:color/holo_red_dark"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/question1"
+            android:textSize="20sp"
+            android:paddingTop="16dp"
+            android:textColor="@android:color/darker_gray"/>
+
+        <CheckBox
+            android:id="@+id/checkBox1A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mercury"
+            android:textSize="20sp"
+            android:textColor="@android:color/black" />
+
+        <CheckBox
+            android:id="@+id/checkBox1B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venus"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <CheckBox
+            android:id="@+id/checkBox1C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jupiter"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <CheckBox
+            android:id="@+id/checkBox1D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Earth"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question2"
+            android:textSize="20sp"
+            android:textColor="@android:color/darker_gray"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/radioBox2A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mercury"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <RadioButton
+                android:id="@+id/radioBox2B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jupiter"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <RadioButton
+                android:id="@+id/radioBox2C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Venus"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <RadioButton
+                android:id="@+id/radioBox2D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saturn"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question3"
+            android:textSize="20sp"
+            android:textColor="@android:color/darker_gray"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioBox3A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mercury"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <RadioButton
+                android:id="@+id/radioBox3B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jupiter"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <RadioButton
+                android:id="@+id/radioBox3C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Venus"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <RadioButton
+                android:id="@+id/radioBox3D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Earth"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question4"
+            android:textSize="20sp"
+            android:textColor="@android:color/darker_gray"/>
+
+        <CheckBox
+            android:id="@+id/checkBox4A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mars"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <CheckBox
+            android:id="@+id/checkBox4B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venus"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <CheckBox
+            android:id="@+id/checkBox4C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jupiter"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <CheckBox
+            android:id="@+id/checkBox4D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Earth"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question5"
+            android:textSize="20sp"
+            android:textColor="@android:color/darker_gray"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioBox5A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mercury"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <RadioButton
+                android:id="@+id/radioBox5B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jupiter"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <RadioButton
+                android:id="@+id/radioBox5C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pluto"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <RadioButton
+                android:id="@+id/radioBox5D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saturn"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question6"
+            android:textSize="20sp"
+            android:textColor="@android:color/darker_gray"/>
+
+        <CheckBox
+            android:id="@+id/checkBox6A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Mercury"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <CheckBox
+            android:id="@+id/checkBox6B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venus"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <CheckBox
+            android:id="@+id/checkBox6C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jupiter"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <CheckBox
+            android:id="@+id/checkBox6D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Saturn"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question7"
+            android:textSize="20sp"
+            android:textColor="@android:color/darker_gray"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioBox7A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Neptune"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <RadioButton
+                android:id="@+id/radioBox7B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jupiter"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <RadioButton
+                android:id="@+id/radioBox7C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Uranus"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <RadioButton
+                android:id="@+id/radioBox7D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Saturn"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question8"
+            android:textSize="20sp"
+            android:textColor="@android:color/darker_gray"/>
+
+        <CheckBox
+            android:id="@+id/checkBox8A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Neptune"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <CheckBox
+            android:id="@+id/checkBox8B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Venus"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <CheckBox
+            android:id="@+id/checkBox8C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Jupiter"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <CheckBox
+            android:id="@+id/checkBox8D"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Earth"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/question9"
+            android:textSize="20sp"
+            android:textColor="@android:color/darker_gray"/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioBox9A"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mercury"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <RadioButton
+                android:id="@+id/radioBox9B"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Jupiter"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <RadioButton
+                android:id="@+id/radioBox9C"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Venus"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+
+            <RadioButton
+                android:id="@+id/radioBox9D"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pluto"
+                android:textSize="20sp"
+                android:textColor="@android:color/black"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/submitAns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:onClick="submitQuiz"
+            android:text="SUBMIT"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+        <Button
+            android:id="@+id/showAns"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Show Answers"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"/>
+
+
+    </LinearLayout>
+</ScrollView>
